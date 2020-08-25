@@ -37,7 +37,7 @@ const App: React.FC = () => {
         <Input name="name" label="Nome completo" />
         <Input name="email" label="Email" />
         <Input name="password" type="password" label="Senha" />
-        <button type="submit">Enviar</button>
+        <button type="submit">Salvar</button>
       </Form>
 
       <List users={users} />
